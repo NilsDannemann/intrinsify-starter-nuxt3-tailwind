@@ -1,0 +1,21 @@
+{
+  "name": "nuxt3-tailwind",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Nuxt 3 Minimal Tailwind Starter",
+  "author": "Chingiz Mammadov <info@chz.dev>",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "nuxt": "^3.8.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  }
+}
